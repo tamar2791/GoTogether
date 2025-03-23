@@ -1,0 +1,17 @@
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Mock.dll
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Mock.pdb
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Repository.dll
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\bin\Debug\net6.0\Repository.pdb
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.dll
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.pdb
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\ref\Mock.dll
