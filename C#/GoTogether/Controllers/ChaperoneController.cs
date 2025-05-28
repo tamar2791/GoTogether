@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Service.Interfaces;
+using System.Data;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,6 +18,7 @@ namespace GoTogether.Controllers
             _service = service;
         }
         // GET: api/<ChaperoneController>
+        [Authorize(Roles = "admin")]
         [HttpGet]
         public async Task<List<Chaperone>> Get()
         {
@@ -30,6 +33,7 @@ namespace GoTogether.Controllers
         }
 
         // POST api/<ChaperoneController>
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<Chaperone> Post([FromBody] Chaperone value)
         {
@@ -38,6 +42,7 @@ namespace GoTogether.Controllers
         }
 
         // PUT api/<ChaperoneController>/5
+        [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
         public async Task<Chaperone> Put(string id, [FromBody] Chaperone value)
         {

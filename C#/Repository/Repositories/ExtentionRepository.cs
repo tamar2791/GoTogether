@@ -18,6 +18,8 @@ namespace Repository.Repositories
             service.AddScoped<IRepository<Chaperone, string>, ChaperoneRepositiry>();
             service.AddScoped<IRepository<Manager,int>, ManagerRepository>();
             service.AddScoped<IRepository<EducationalInstitution, int>, EducationalInstitutionRepository>();
+            service.AddScoped<IRepository<Parents, int>, ParentsRepository>();
+            service.AddScoped<ChildRepository>();
             return service;
         }
     }

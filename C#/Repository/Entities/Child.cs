@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Repository.Entities
 {
@@ -14,18 +15,23 @@ namespace Repository.Entities
         public string Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public string FatherName { get; set; }
-        public string MotherName { get; set; }
-        public string FatherPhone { get; set; }
-        public string MotherPhone { get; set; }
-        public string Password { get; set; }
         public bool IsCome { get; set; }
-        public string Email { get; set; }
-        [ForeignKey("Driver")]
+        public bool IsLeave { get; set; }
+        public bool Status { get; set; }
+        public bool IsDisable { get; set; }
+        public bool IsPrivateCar { get; set; }
+        public bool IsPrivateChperone { get; set; }
         public int? DriverId { get; set; }
+        [ForeignKey("DriverId")]
         public virtual Driver? Driver { get; set; }
-        [ForeignKey("EducationalInstitution")]
         public int? EduId { get; set; }
+        [ForeignKey("EduId")]
         public virtual EducationalInstitution? EducationalInstitution { get; set; }
+        public int? ParentsId { get; set; }
+        [ForeignKey("ParentsId")]
+        public virtual Parents? Parents { get; set; }
+        public string? ChaperoneId { get; set; }
+        [ForeignKey("ChaperoneId")]
+        public virtual Chaperone? Chaperone { get; set; }
     }
 }

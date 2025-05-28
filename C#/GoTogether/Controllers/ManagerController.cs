@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GoTogether.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Service.Interfaces;
 
@@ -17,6 +19,7 @@ namespace GoTogether.Controllers
         }
 
         // GET: api/<ManagerController>
+        [Authorize(Roles = "admin")]
         [HttpGet]
         public async Task<List<Manager>> Get()
         {
@@ -24,6 +27,7 @@ namespace GoTogether.Controllers
         }
 
         // GET api/<ManagerController>/5
+        [Authorize(Roles = "admin")]
         [HttpGet("{id}")]
         public async Task<Manager> Get(int id)
         {
@@ -31,6 +35,7 @@ namespace GoTogether.Controllers
         }
 
         // POST api/<ManagerController>
+        [Authorize(Roles ="admin")]
         [HttpPost]
         public async Task<Manager> Post([FromBody] Manager value)
         {
@@ -38,6 +43,7 @@ namespace GoTogether.Controllers
         }
 
         // PUT api/<ManagerController>/5
+        [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
         public async Task<Manager> Put(int id, [FromBody] Manager value)
         {

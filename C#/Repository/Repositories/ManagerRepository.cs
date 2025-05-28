@@ -49,5 +49,9 @@ namespace Repository.Repositories
             await _context.Save();
             return manager;
         }
+        public async Task<Manager> GetByPassEmail(string email, string password)
+        {
+            return await _context.Manager.FirstOrDefaultAsync(x => x.Email == email && x.Password == password);
+        }
     }
 }

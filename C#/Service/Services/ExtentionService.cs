@@ -16,11 +16,15 @@ namespace Service.Services
         {
             service.AddRepository();
             service.AddScoped<IService<Child,string>, ChildService>();
-            service.AddScoped<IService<Driver,int>, DriverService>();
+            service.AddScoped<IService<Driver, int>, DriverService>();
             service.AddScoped<IService<Chaperone,string>, ChaperoneService>();
             service.AddScoped<IService<Manager,int>, ManagerService>();
             service.AddScoped<IService<EducationalInstitution, int>, EducationalInstitutionService>();
+            service.AddScoped<IService<Parents, int>, ParentsService>();
             service.AddScoped<IAlgorithm, Algorithm>();
+            service.AddScoped<ILogin<Manager>, ManagerLogin>();
+            service.AddScoped<ILogin<Driver>, DriverLogin>();
+            service.AddScoped<ILogin<Parents>, ParentLogin>();
             return service;
         }
     }

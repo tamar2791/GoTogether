@@ -31,13 +31,22 @@ namespace Repository.Repositories
 
         public async Task<Chaperone> Get(string id)
         {
-            return await _context.Chaperone.FirstOrDefaultAsync(x => x.Id == id);
+            return await _context.Chaperone
+                .Include(x=>x.Driver)
+                .FirstOrDefaultAsync(x => x.Id == id);
 
         }
 
         public async Task<List<Chaperone>> GetAll()
         {
-            return await _context.Chaperone.ToListAsync();
+            return await _context.Chaperone
+                .Include(x=>x.Driver)
+                .ToListAsync();
+        }
+
+        public Task<Chaperone> GetByPassEmail(string email, string password)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Chaperone> Update(string id, Chaperone item)
@@ -48,6 +57,7 @@ namespace Repository.Repositories
             chaperone.Phone = item.Phone;
             chaperone.Email = item.Email;
             chaperone.DriverId = item.DriverId;
+            chaperone.Status = item.Status;
             await _context.Save();
             return chaperone;
         }

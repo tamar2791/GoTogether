@@ -16,6 +16,7 @@ namespace Mock
         public DbSet<Chaperone> Chaperone { get; set ; }
         public DbSet<Manager> Manager { get; set; }
         public DbSet<EducationalInstitution> EducationalInstitution { get; set; }
+        public DbSet<Parents> Parents { get; set; }
 
         public async Task Save()
         {

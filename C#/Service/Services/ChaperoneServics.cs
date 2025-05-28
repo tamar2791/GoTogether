@@ -38,6 +38,11 @@ namespace Service.Services
             return await _repository.GetAll();
         }
 
+        public Task<Chaperone> GetByPassEmail(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Chaperone> Update(string id, Chaperone item)
         {
             return await _repository.Update(id,item);

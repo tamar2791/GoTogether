@@ -46,6 +46,9 @@ namespace Mock.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DriverId")
@@ -64,48 +67,49 @@ namespace Mock.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ChaperoneId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<int?>("DriverId")
                         .HasColumnType("int");
 
                     b.Property<int?>("EduId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FatherName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FatherPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsCome")
                         .HasColumnType("bit");
 
-                    b.Property<string>("MotherName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsDisable")
+                        .HasColumnType("bit");
 
-                    b.Property<string>("MotherPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsLeave")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPrivateCar")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPrivateChperone")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("ParentsId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ChaperoneId");
 
                     b.HasIndex("DriverId");
 
                     b.HasIndex("EduId");
+
+                    b.HasIndex("ParentsId");
 
                     b.ToTable("Child");
                 });
@@ -125,16 +129,24 @@ namespace Mock.Migrations
                     b.Property<string>("ChaperoneId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CountSeats")
-                        .HasColumnType("int");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.HasKey("DriverId");
 
@@ -171,6 +183,9 @@ namespace Mock.Migrations
                     b.Property<TimeSpan>("StartTime")
                         .HasColumnType("time");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("EducationalInstitution");
@@ -200,9 +215,63 @@ namespace Mock.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("Manager");
+                });
+
+            modelBuilder.Entity("Repository.Entities.Parents", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsSms")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Parents");
                 });
 
             modelBuilder.Entity("Repository.Entities.Chaperone", b =>
@@ -217,6 +286,10 @@ namespace Mock.Migrations
 
             modelBuilder.Entity("Repository.Entities.Child", b =>
                 {
+                    b.HasOne("Repository.Entities.Chaperone", "Chaperone")
+                        .WithMany()
+                        .HasForeignKey("ChaperoneId");
+
                     b.HasOne("Repository.Entities.Driver", "Driver")
                         .WithMany("Children")
                         .HasForeignKey("DriverId");
@@ -225,9 +298,17 @@ namespace Mock.Migrations
                         .WithMany("Children")
                         .HasForeignKey("EduId");
 
+                    b.HasOne("Repository.Entities.Parents", "Parents")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentsId");
+
+                    b.Navigation("Chaperone");
+
                     b.Navigation("Driver");
 
                     b.Navigation("EducationalInstitution");
+
+                    b.Navigation("Parents");
                 });
 
             modelBuilder.Entity("Repository.Entities.Driver", b =>
@@ -238,6 +319,11 @@ namespace Mock.Migrations
                 });
 
             modelBuilder.Entity("Repository.Entities.EducationalInstitution", b =>
+                {
+                    b.Navigation("Children");
+                });
+
+            modelBuilder.Entity("Repository.Entities.Parents", b =>
                 {
                     b.Navigation("Children");
                 });

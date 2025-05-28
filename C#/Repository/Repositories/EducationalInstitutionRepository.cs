@@ -39,6 +39,11 @@ namespace Repository.Repositories
             return await _context.EducationalInstitution.ToListAsync();
         }
 
+        public Task<EducationalInstitution> GetByPassEmail(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<EducationalInstitution> Update(int id, EducationalInstitution item)
         {
             var educationalInstitution = await Get(id);

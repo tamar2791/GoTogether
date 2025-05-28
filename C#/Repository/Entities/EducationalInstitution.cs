@@ -13,6 +13,7 @@ namespace Repository.Entities
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
+        public bool Status { get; set; }
         public TimeSpan StartTime { get; set; }
         public TimeSpan EndTime { get; set; }
         //public List<DateOnly> EndTime { get; set; }

@@ -16,8 +16,9 @@ namespace Repository.Entities
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-        [ForeignKey("Driver")]
+        public bool Status { get; set; }
         public int? DriverId { get; set; }
+        [ForeignKey("DriverId")]
         public virtual Driver? Driver { get; set; }
     }
 }

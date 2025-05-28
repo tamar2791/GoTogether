@@ -12,7 +12,7 @@ namespace Service.Services
     public class ManagerService : IService<Manager, int>
     {
         private readonly IRepository<Manager, int> _repository;
-        public ManagerService(IRepository<Manager,int> repository)
+        public ManagerService(IRepository<Manager, int> repository)
         {
             _repository= repository;
         }
@@ -34,6 +34,11 @@ namespace Service.Services
         public async Task<List<Manager>> GetAll()
         {
             return await _repository.GetAll();
+        }
+
+        public Task<Manager> GetByPassEmail(string email, string password)
+        {
+            return _repository.GetByPassEmail(email, password);
         }
 
         public async Task<Manager> Update(int id, Manager item)

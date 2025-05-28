@@ -13,10 +13,12 @@ namespace Repository.Entities
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
-        public int CountSeats { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public bool Status { get; set; }
         public ICollection<Child>? Children { get; set; }
-        [ForeignKey("Chaperone")]
         public string? ChaperoneId { get; set; }
+        [ForeignKey("ChaperoneId")]
         public virtual Chaperone? Chaperone { get; set; }
     }
 }

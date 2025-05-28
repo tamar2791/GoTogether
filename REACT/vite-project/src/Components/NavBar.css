@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #1976d2 !important; /* צבע כחול של MUI */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-toolbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    color: white;
+    margin-left: auto; /* מוצמד לימין */
+    padding-right: 30px; /* מרווח נוסף כדי שלא ייחתך */
+  }
+  
+  .navbar-user {
+    font-style: italic;
+    color: white;
+    margin-right: auto; /* מוצמד לשמאל */
+  }
+  
+  /* הוספת מרווח לתוכן שמתחת לניווט */
+  .body-content {
+    margin-top: 64px; /* גובה ה-AppBar של MUI */
+  }

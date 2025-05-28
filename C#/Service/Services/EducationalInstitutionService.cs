@@ -37,6 +37,11 @@ namespace Service.Services
             return await _repository.GetAll();
         }
 
+        public Task<EducationalInstitution> GetByPassEmail(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<EducationalInstitution> Update(int id, EducationalInstitution item)
         {
             return await _repository.Update(id, item);

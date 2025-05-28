@@ -89,3 +89,12 @@ C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\obj\Debug\net6.0\refint\G
 C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\obj\Debug\net6.0\GoTogether.pdb
 C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\obj\Debug\net6.0\GoTogether.genruntimeconfig.cache
 C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\obj\Debug\net6.0\ref\GoTogether.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Microsoft.Bcl.Memory.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Twilio.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Quartz.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Quartz.AspNetCore.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Quartz.Extensions.DependencyInjection.dll
+C:\תמי\יד\פרוייקט הסעות\C#\GoTogether\bin\Debug\net6.0\Quartz.Extensions.Hosting.dll

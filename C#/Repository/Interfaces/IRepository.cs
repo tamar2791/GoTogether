@@ -13,5 +13,6 @@ namespace Repository.Interfaces
         Task Delete(W id);
         Task<T> Add(T item);
         Task<T> Update(W id, T item);
+        Task<T> GetByPassEmail(string email,string password);
     }
 }

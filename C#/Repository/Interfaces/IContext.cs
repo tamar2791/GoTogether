@@ -10,6 +10,7 @@ namespace Repository.Interfaces
         DbSet<Chaperone> Chaperone { get; set; }
         DbSet<Manager> Manager { get; set; }
         DbSet<EducationalInstitution> EducationalInstitution { get; set; }
+        DbSet<Parents> Parents { get; set; }
         public Task Save();
     }
 }

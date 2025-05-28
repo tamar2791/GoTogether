@@ -11,7 +11,7 @@ namespace Service.Services
 {
     public class DriverService : IService<Driver, int>
     {
-        private readonly IRepository<Driver,int> _repository;
+        private readonly IRepository<Driver, int> _repository;
         public DriverService(IRepository<Driver, int> repository)
         {
             _repository = repository;
@@ -35,6 +35,11 @@ namespace Service.Services
         public async Task<List<Driver>> GetAll()
         {
             return await _repository.GetAll();
+        }
+
+        public async Task<Driver> GetByPassEmail(string email, string password)
+        {
+            return await _repository.GetByPassEmail(email, password);
         }
 
         public async Task<Driver> Update(int id, Driver item)
