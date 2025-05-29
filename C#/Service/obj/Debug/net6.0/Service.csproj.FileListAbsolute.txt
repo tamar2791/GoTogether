@@ -17,3 +17,22 @@ C:\תמי\יד\פרוייקט הסעות\C#\Service\obj\Debug\net6.0\refint\Serv
 C:\תמי\יד\פרוייקט הסעות\C#\Service\obj\Debug\net6.0\Service.pdb
 C:\תמי\יד\פרוייקט הסעות\C#\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
 C:\תמי\יד\פרוייקט הסעות\C#\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Service.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Common.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Common.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\user1\Desktop\GoTogether\C#\Service\obj\Debug\net6.0\ref\Service.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Service\\Service.csproj": {}
+    "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\Common.csproj": {
+    "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\Repository.csproj": {
+    "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Service\\Service.csproj": {
+    "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,11 +197,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\Common.csproj": {
-                "projectPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Common\\Common.csproj"
+              "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Common\\Common.csproj"
               },
-              "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\תמי\\יד\\פרוייקט הסעות\\C#\\Repository\\Repository.csproj"
+              "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\user1\\Desktop\\GoTogether\\C#\\Repository\\Repository.csproj"
               }
             }
           }

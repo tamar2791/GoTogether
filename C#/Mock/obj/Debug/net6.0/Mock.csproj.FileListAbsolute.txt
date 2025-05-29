@@ -15,3 +15,20 @@ C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\refint\Mock.dl
 C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.pdb
 C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
 C:\תמי\יד\פרוייקט הסעות\C#\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\user1\Desktop\GoTogether\C#\Mock\obj\Debug\net6.0\ref\Mock.dll

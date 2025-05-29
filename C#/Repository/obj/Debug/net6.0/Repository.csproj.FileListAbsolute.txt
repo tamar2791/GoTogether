@@ -12,3 +12,17 @@ C:\תמי\יד\פרוייקט הסעות\C#\Repository\obj\Debug\net6.0\refint\R
 C:\תמי\יד\פרוייקט הסעות\C#\Repository\obj\Debug\net6.0\Repository.pdb
 C:\תמי\יד\פרוייקט הסעות\C#\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 C:\תמי\יד\פרוייקט הסעות\C#\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\user1\Desktop\GoTogether\C#\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\user1\Desktop\GoTogether\C#\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\user1\Desktop\GoTogether\C#\Repository\obj\Debug\net6.0\ref\Repository.dll
