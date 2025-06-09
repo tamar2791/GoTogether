@@ -103,3 +103,13 @@ npm run dev
 ## 👩‍💻 Developed by: [Tamar](https://github.com/tamar2791) and [Tehila](https://github.com/tehilamiller)
 
 Final project for Software Development Program, 2025.
+
+
+---
+
+
+## 🙋‍♀️ Used this project?
+
+If this code helped you or was useful in any way — I’d really appreciate it if you could give it a ⭐ star, open an issue, or just let me know!
+It means a lot to know the project is being used and helps me improve it further. Thanks! 💙
+
