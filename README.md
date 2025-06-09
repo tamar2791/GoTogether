@@ -6,17 +6,15 @@
 
 ## 🎯 Key Features
 
-- 🧠 **Core Algorithm: Ride Assignment**
+- 🧠 **Core Algorithm: Ride Assignment** *(Coming Soon!)*
+    Want to help? Suggestions for implementing/improving the ride assignment algorithm are welcome!  
+    Feel free to contribute via Pull Request or open an Issue.
   - Assigns children to rides based on:
     - Distance between children
     - Maximum allowed travel time (predefined)
     - Maximum number of children per vehicle
     - 🎯 **Objective: Minimize total number of vehicles and total travel time**
   - 🚗 The shortest driving route for each assigned ride is calculated using **Google Maps Directions API** .
-
-- 📌 **Automatic ride assignment** *(Coming Soon!)*  
-  Want to help? Suggestions for implementing/improving the ride assignment algorithm are welcome!  
-  Feel free to contribute via Pull Request or open an Issue.
 
 - 🕓 Daily scheduling of rides to educational institutions
 - 🚌 Assignment of children to transportation
