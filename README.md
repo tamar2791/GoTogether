@@ -71,7 +71,7 @@ GoTogether/
 ### Server (C#):
 
 ```bash
-cd server
+cd C#
 dotnet restore
 dotnet run
 ```
@@ -79,7 +79,7 @@ dotnet run
 ### Client (React):
 
 ```bash
-cd client
+cd REACT/vite-project
 npm install
 npm run dev
 ```
