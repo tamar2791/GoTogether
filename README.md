@@ -12,7 +12,7 @@
     - Maximum allowed travel time (predefined)
     - Maximum number of children per vehicle
     - 🎯 **Objective: Minimize total number of vehicles and total travel time**
-  - 🚗 The shortest driving route for each assigned ride is calculated using **Google Maps Directions API** – this is not custom logic, but built-in API functionality.
+  - 🚗 The shortest driving route for each assigned ride is calculated using **Google Maps Directions API** .
 
 - 📌 **Automatic ride assignment** *(Coming Soon!)*  
   Want to help? Suggestions for implementing/improving the ride assignment algorithm are welcome!  
